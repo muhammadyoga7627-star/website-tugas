@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* header */
+header {
+    background-color: #d35400;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* navbar */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+/* hero */
+.hero {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    width: 260px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    color: #d35400;
+}
+
+/* tentang & kontak */
+.tentang,
+.kontak {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
